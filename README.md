@@ -11,7 +11,7 @@ The modelling process is built around two approaches:
 Every message passes through my preprocessing pipeline (lowercasing, stopword removal, and lemmatization), is converted into TF-IDF features, and then classified by the trained model. To demonstrate the system clearly, I wrapped everything in a Streamlit interface where users can type a message or load an example and instantly receive a prediction.
 
 ### Streamlit App Home
-![homepage](images\homepage.png)
+![homepage](images/homepage.png)
 
 ### Spam Prediction Result
 ![spam](images/notspam.png)
