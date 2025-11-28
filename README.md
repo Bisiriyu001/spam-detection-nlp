@@ -22,7 +22,7 @@ Every message passes through my preprocessing pipeline (lowercasing, stopword re
 ## **Understanding the Model Score**
 The number shown under each prediction is the model’s confidence score. It comes from the SVM classifier and reflects how strongly the model leans toward either spam or not-spam. Positive scores indicate a stronger push toward spam, while negative scores indicate a stronger push toward legitimate messages. Scores closer to zero represent borderline cases, and scores further away from zero show higher confidence. For example, a score like +0.55 means the model sees several patterns associated with spam, while a score like -1.02 suggests the message is confidently classified as not spam. Although the score is not a probability, it gives a clear sense of how certain the model is about its decision.
 
-## **Wwhy This Project Matters**
+## **Why This Project Matters**
 Spam detection is a common and practical NLP problem, and I wanted this project to show how a complete solution is built from start to finish.
 Working through it allowed me to demonstrate the core skills expected in real NLP work: preparing and cleaning text data, converting messages into numerical features using TF-IDF, training and comparing classical machine-learning models, and organising the code into clean, reusable modules.
 
