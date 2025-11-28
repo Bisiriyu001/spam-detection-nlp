@@ -17,7 +17,7 @@ Every message passes through my preprocessing pipeline (lowercasing, stopword re
 ![spam](images/notspam.png)
 
 ### Not Spam Prediction Result
-![notspam](images\spam.png)
+![notspam](images/spam.png)
 
 ## **Understanding the Model Score**
 The number shown under each prediction is the model’s confidence score. It comes from the SVM classifier and reflects how strongly the model leans toward either spam or not-spam. Positive scores indicate a stronger push toward spam, while negative scores indicate a stronger push toward legitimate messages. Scores closer to zero represent borderline cases, and scores further away from zero show higher confidence. For example, a score like +0.55 means the model sees several patterns associated with spam, while a score like -1.02 suggests the message is confidently classified as not spam. Although the score is not a probability, it gives a clear sense of how certain the model is about its decision.
