@@ -1,4 +1,8 @@
 # **Spam Detection NLP System**
+
+## Live Demo  
+Try the app here: https://spam-detection-nlp-b4gbjrni2anqih42bntlqn.streamlit.app
+
 I developed this project to demonstrate a practical end-to-end NLP workflow for classifying SMS messages as spam or legitimate text. My aim was to show how a real machine-learning system is built: from raw data and preprocessing to model development, evaluation, and an interactive application. The solution includes a complete text-processing pipeline, TF-IDF feature engineering, two classical machine-learning classifiers, and a Streamlit interface for real-time predictions. I organised the project in a modular way so it remains clear, maintainable, and easy to extend.
 
 ## **Project Overview**
